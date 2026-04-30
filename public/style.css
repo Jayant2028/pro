@@ -1,0 +1,155 @@
+/* BODY */
+body{
+  background:linear-gradient(to right,#667eea,#764ba2);
+  font-family:'Segoe UI',sans-serif;
+  margin:0;
+  padding:0;
+}
+
+/* NAVBAR */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  background:linear-gradient(to right,#141e30,#243b55);
+  color:white;
+  box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+
+.logo{
+  font-size:20px;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+
+.nav-right a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  font-weight:500;
+  transition:0.3s;
+}
+
+.nav-right a:hover{
+  color:#00d4ff;
+}
+
+.user{
+  background:rgba(255,255,255,0.2);
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:14px;
+}
+
+/* LOGIN + REGISTER CONTAINER */
+.container{
+  max-width:420px;
+  margin:80px auto;
+  padding:30px;
+  background:white;
+  border-radius:15px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* INDEX PAGE CONTAINER */
+.container-wide{
+  max-width:900px;
+  margin:50px auto;
+  padding:20px;
+}
+
+/* TITLE */
+h2{
+  text-align:center;
+  margin-bottom:25px;
+  font-weight:600;
+  color:#333;
+}
+
+/* INPUT */
+.form-control{
+  margin-bottom:15px !important;
+  border-radius:10px !important;
+  padding:12px !important;
+  border:1px solid #ccc !important;
+}
+
+/* INPUT FOCUS */
+.form-control:focus{
+  border-color:#667eea !important;
+  box-shadow:0 0 5px rgba(102,126,234,0.5) !important;
+}
+
+/* CHECKBOX */
+label{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:15px;
+}
+
+/* BUTTON */
+.custom-btn{
+  width:100%;
+  padding:12px;
+  border-radius:12px;
+  background:linear-gradient(to right,#667eea,#764ba2);
+  color:white;
+  font-weight:bold;
+  border:none;
+  transition:0.3s;
+}
+
+.custom-btn:hover{
+  transform:scale(1.05);
+}
+
+/* SECONDARY BUTTON (Register/Login link) */
+.register-btn{
+  display:block;
+  width:100%;
+  padding:12px;
+  border-radius:12px;
+  background:transparent;
+  border:2px solid #667eea;
+  color:#667eea;
+  font-weight:bold;
+  text-align:center;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.register-btn:hover{
+  background:#667eea;
+  color:white;
+}
+
+/* FOOD CARD */
+.food-card{
+  border:none;
+  border-radius:15px;
+  overflow:hidden;
+  margin-bottom:20px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+  transition:0.3s;
+  background:white;
+}
+
+.food-card:hover{
+  transform:scale(1.02);
+}
+
+/* IMAGE */
+.food-img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+
+/* PRICE */
+.price{
+  font-size:18px;
+  font-weight:bold;
+  color:#667eea;
+}

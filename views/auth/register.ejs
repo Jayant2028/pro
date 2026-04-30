@@ -1,0 +1,59 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="logo">🍽️ Canteen</div>
+
+  <div class="nav-right">
+    <a href="/login">Login</a>
+  </div>
+</div>
+
+<!-- REGISTER FORM -->
+<div class="container">
+  <h2>Register</h2>
+
+  <form action="/register" method="POST">
+
+    <div class="mb-3">
+      <input type="text" name="username" class="form-control" placeholder="Username" required>
+    </div>
+
+    <div class="mb-3">
+      <input type="password" name="password" class="form-control" placeholder="Password" required>
+    </div>
+
+    <div class="mb-3">
+      <input type="text" name="phoneNumber" class="form-control" placeholder="Phone Number" required>
+    </div>
+
+    <div class="mb-3">
+      <select name="gender" class="form-control" required>
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <input type="text" name="aadharNumber" class="form-control" placeholder="Aadhar Number">
+    </div>
+
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" name="isFaculty">
+      <label class="form-check-label">Faculty</label>
+    </div>
+
+    <!-- BIG BUTTON -->
+    <button class="btn custom-btn">Register</button>
+
+  </form>
+
+  <!-- LOGIN BELOW -->
+  <div class="text-center mt-3">
+    <p>Already have an account?</p>
+    <a href="/login" class="register-btn">Login</a>
+  </div>
+
+</div>
